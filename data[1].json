@@ -1,21 +1,21 @@
 {
   "Header": {
     "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "paragraph": "Welcome to ScrapDeal – your smart solution for selling scrap effortlessly! Whether it’s paper, plastic, or metal, we connect you with trusted dealers, offer the best rates, and handle pickups right from your doorstep. Turn your waste into cash with just a few clicks!"
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "At ScrapDeal, we believe in a cleaner, greener future by making scrap collection easy, transparent, and rewarding. Whether you’re a household looking to dispose of old newspapers, plastic, and metal, or a business with bulk scrap materials, we’re here to help. With just a few clicks, you can schedule a pickup, check live scrap rates, and get paid instantly — all from the comfort of your home.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Eco-Friendly : Contribute to a cleaner and greener planet.",
+      "Best Rates : Get fair, real-time prices for your scrap.",
+      "Doorstep Pickup : We come to your location, hassle-free.",
+      "Quick & Easy : Book a pickup in just a few clicks."
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Trusted Dealers : We work only with verified scrap buyers.",
+      "Secure Payments : Fast, safe, and transparent transactions.",
+      "Upload & Sell : Share scrap images, get instant quotes.",
+      "Track Your Deals : Keep a record of your scrap sales anytime."
     ]
   },
   "Gallery": [
