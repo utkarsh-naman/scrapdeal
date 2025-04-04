@@ -65,36 +65,36 @@
       "smallImage": "img/portfolio/09-small.jpg"
     }
   ],
-  "Services": [
+"Services": [
     {
       "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Door to Door Scrap Pickup",
+      "text": "We provide hassle-free, eco-friendly scrap collection right at your doorstep. Schedule a pickup"
     },
     {
       "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Packaging Industry Scrap",
+      "text": "Efficient collection of cardboard, plastic wraps, and packaging waste from factories, warehouses, and logistics hubs"
     },
     {
       "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Construction Site Scrap",
+      "text": "Professional removal of metal, concrete debris, wood, and other construction waste"
     },
     {
       "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "IT Companies Scrap",
+      "text": "Secure and certified disposal of old computers, servers, cables, and electronic waste."
     },
     {
       "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "College Institution Scrap",
+      "text": "Paper, lab waste, furniture, and e-waste collection from schools, colleges, and offices."
     },
     {
       "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Printing Press Scrap",
+      "text": "Specialized collection of paper offcuts, misprints, ink cartridges, and aluminum plates"
     }
   ],
   "Testimonials": [
