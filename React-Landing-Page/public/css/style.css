@@ -370,8 +370,8 @@ header .intro-text {
   color: #fff;
   background: linear-gradient(
     to right,
-    rgba(99, 114, 255, 0.8) 0%,
-    rgba(92, 169, 251, 0.8) 100%
+    rgba(22, 232, 50, 0.8) 0%,
+    rgba(18, 232, 39, 0.359) 100%
   );
   padding: 30% 0 0;
   height: 100%;
@@ -460,7 +460,7 @@ header .intro-text {
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #2fa906 0%, #085107 100%);
   color: rgba(255, 255, 255, 0.75);
 }
 #contact .section-title {
@@ -580,7 +580,7 @@ label {
   transition: all 0.3s;
 }
 #contact .social i.fa:hover {
-  color: #608dfd;
+  color: #2fa906;
   background: #fff;
 }
 /* Footer Section*/
@@ -593,10 +593,10 @@ label {
   font-size: 14px;
 }
 #footer a {
-  color: #608dfd;
+  color: #2fa906;
 }
 #footer a:hover {
-  border-bottom: 2px solid #608dfd;
+  border-bottom: 2px solid #2fa906;
 }
 
 @media (max-width: 768px) {
