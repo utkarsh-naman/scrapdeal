@@ -1,21 +1,21 @@
 {
   "Header": {
     "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "paragraph": "Welcome to ScrapDeal – your smart solution for selling scrap effortlessly! Whether it’s paper, plastic, or metal, we connect you with trusted dealers, offer the best rates, and handle pickups right from your doorstep. Turn your waste into cash with just a few clicks!"
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "At ScrapDeal, we believe in a cleaner, greener future by making scrap collection easy, transparent, and rewarding. Whether you’re a household looking to dispose of old newspapers, plastic, and metal, or a business with bulk scrap materials, we’re here to help. With just a few clicks, you can schedule a pickup, check live scrap rates, and get paid instantly — all from the comfort of your home.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Eco-Friendly : Contribute to a cleaner and greener planet.",
+      "Best Rates : Get fair, real-time prices for your scrap.",
+      "Doorstep Pickup : We come to your location, hassle-free.",
+      "Quick & Easy : Book a pickup in just a few clicks."
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Trusted Dealers : We work only with verified scrap buyers.",
+      "Secure Payments : Fast, safe, and transparent transactions.",
+      "Upload & Sell : Share scrap images, get instant quotes.",
+      "Track Your Deals : Keep a record of your scrap sales anytime."
     ]
   },
   "Gallery": [
@@ -65,68 +65,68 @@
       "smallImage": "img/portfolio/09-small.jpg"
     }
   ],
-  "Services": [
+"Services": [
     {
       "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Door to Door Scrap Pickup",
+      "text": "We provide hassle-free, eco-friendly scrap collection right at your doorstep. Schedule a pickup"
     },
     {
       "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Packaging Industry Scrap",
+      "text": "Efficient collection of cardboard, plastic wraps, and packaging waste from factories, warehouses, and logistics hubs"
     },
     {
       "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Construction Site Scrap",
+      "text": "Professional removal of metal, concrete debris, wood, and other construction waste"
     },
     {
       "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "IT Companies Scrap",
+      "text": "Secure and certified disposal of old computers, servers, cables, and electronic waste."
     },
     {
       "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "College Institution Scrap",
+      "text": "Paper, lab waste, furniture, and e-waste collection from schools, colleges, and offices."
     },
     {
       "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Printing Press Scrap",
+      "text": "Specialized collection of paper offcuts, misprints, ink cartridges, and aluminum plates"
     }
   ],
   "Testimonials": [
     {
       "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "Their scrap pickup service has saved us so much space and hassle",
+      "name": "Rahul Sharma"
     },
     {
       "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "We rely on them for debris removal after every project. They’re punctual, professional, and recycle 90% of the waste",
+       "name": "Priya Patel"
     },
     {
       "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "Their e-waste disposal is secure and compliant. They even provided data destruction certificates for our old servers",
+      "name": "Vikram Mehta"
     },
     {
       "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "They buy our misprints and paper scraps at fair rates.",
+      "name": "Sanjay Malhotra"
     },
     {
       "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "Our campus is now cleaner thanks to their regular paper and lab waste pickups. The students appreciate the eco-friendly initiative!",
+      "name": "Dr. Ananya Joshi"
     },
     {
       "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "We generate tons of waste daily, and their scrap pickup team has been a game-changer!",
+      "name": "Aditya Nair"
     }
   ],
   "Team": [
@@ -152,33 +152,33 @@
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
+    "address": "Sudarsana Apartment,4th floor,Maheshbithan,kolkata",
+    "phone": "+91 7603004950",
+    "email": "kantjuhi04@gmail.com",
     "facebook": "fb.com",
     "twitter": "twitter.com",
-    "youtube": "youtube.com"
+    "youtube": "www.youtube.com/@RITIKANTJUHI"
   },
   "Features": [
     {
       "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Door to Door Pickup",
+      "text": "We provide door to door pickup service for our customers."
     },
     {
       "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Special Waste",
+      "text": "We accept special waste collection at many locations."
     },
     {
       "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Construction Site Scrap",
+      "text": "PVC Pipe Scrap, All kind of Metal Scrap, Waste Kraft, GI Pipe cut pieces, Used Copper / Aluminum Wires etc."
     },
     {
       "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "IT Companies Scrap",
+      "text": "Old Monitors, CPUs, Printers, Telephone, Servers, UPS and many more."
     }
   ]
 }
