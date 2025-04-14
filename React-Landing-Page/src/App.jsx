@@ -1,6 +1,11 @@
 import React, { useState, useEffect } from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  useHistory,
+} from "react-router-dom";
+import SellScrapForm from "./components/SellScrapForm";
 import { Navigation } from "./components/navigation";
 import { Header } from "./components/header";
 import { Features } from "./components/features";
@@ -11,6 +16,8 @@ import { Testimonials } from "./components/testimonials";
 import { Team } from "./components/Team";
 
 import Login from "./components/login";
+import ScrapOptions from "./components/ScrapOptions";
+import SellScrap from "./components/SellScrap";
 
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
@@ -47,6 +54,10 @@ const App = () => {
         <Route exact path="/" render={() => <Home data={landingPageData} />} />
         <Route path="/login" render={() => <Login mode="signin" />} />
         <Route path="/signup" render={() => <Login mode="signup" />} />
+        <Route path="/options" component={ScrapOptions} />
+        <Route path="/sell-scrap" component={SellScrap} />
+        <Route path="/options" component={ScrapOptions} />
+<Route path="/sell-scrap" component={SellScrapForm} />
       </Switch>
     </Router>
   );

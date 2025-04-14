@@ -1,55 +1,45 @@
-import React, { useState, useEffect } from "react";
-import Papa from "papaparse";
-
-const FILE_NAME = "users.csv";
+import React, { useState } from "react";
+import { useHistory } from "react-router-dom";
 
 const Login = ({ mode }) => {
   const [userId, setUserId] = useState("");
   const [password, setPassword] = useState("");
-  const [users, setUsers] = useState([]);
   const [message, setMessage] = useState("");
   const [isSubmitted, setIsSubmitted] = useState(false);
-
-  useEffect(() => {
-    fetch(`/${FILE_NAME}`)
-      .then((response) => response.text())
-      .then((text) => {
-        const parsed = Papa.parse(text, { header: true });
-        setUsers(parsed.data);
-      })
-      .catch(() => {
-        console.log("CSV not found, creating on Sign Up");
-      });
-  }, []);
+  const history = useHistory();
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
+    const storedUsers = JSON.parse(localStorage.getItem("users") || "[]");
+
     if (mode === "signup") {
-      const exists = users.some((user) => user.userId === userId);
+      const exists = storedUsers.some((user) => user.userId === userId);
       if (exists) {
         setMessage("User already exists!");
         return;
       }
 
-      const updatedUsers = [...users, { userId, password }];
-      const csv = Papa.unparse(updatedUsers);
-      const blob = new Blob([csv], { type: "text/csv;charset=utf-8;" });
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement("a");
-      a.href = url;
-      a.download = FILE_NAME;
-      a.click();
+      const updatedUsers = [...storedUsers, { userId, password }];
+      localStorage.setItem("users", JSON.stringify(updatedUsers));
 
       setMessage("User registered!");
       setIsSubmitted(true);
+
+      setTimeout(() => {
+        history.push("/");
+      }, 2000);
     } else {
-      const user = users.find(
+      const user = storedUsers.find(
         (u) => u.userId === userId && u.password === password
       );
       if (user) {
         setMessage("Login successful!");
         setIsSubmitted(true);
+
+        setTimeout(() => {
+          history.push("/options");
+        }, 2000);
       } else {
         setMessage("Invalid credentials.");
         setIsSubmitted(false);
@@ -81,16 +71,19 @@ const Login = ({ mode }) => {
             style={{ padding: "10px", marginBottom: "10px", width: "200px" }}
           />
           <br />
-          <button type="submit" style={{
-            padding: "10px 20px",
-            borderRadius: "25px",
-            backgroundColor: mode === "signup" ? "#28a745" : "#007bff",
-            color: "#fff",
-            border: "none",
-            cursor: "pointer",
-            fontWeight: "bold",
-            transition: "background-color 0.3s ease"
-          }}>
+          <button
+            type="submit"
+            style={{
+              padding: "10px 20px",
+              borderRadius: "25px",
+              backgroundColor: mode === "signup" ? "#28a745" : "#007bff",
+              color: "#fff",
+              border: "none",
+              cursor: "pointer",
+              fontWeight: "bold",
+              transition: "background-color 0.3s ease",
+            }}
+          >
             {mode === "signup" ? "Sign Up" : "Sign In"}
           </button>
         </form>
