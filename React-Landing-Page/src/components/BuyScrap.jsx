@@ -258,7 +258,7 @@ const BuyScrap = () => {
               setOrderPopup(null);
               setTimeout(() => {
                 window.location.href = "/";
-              }, 1000); // redirect after 3s
+              }, 1000); 
             }}
             style={{
               marginTop: "20px",
