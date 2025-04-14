@@ -74,15 +74,12 @@ const BuyScrap = () => {
       deliveryDate,
     });
 
-    // Optional: Clear cart and form
+    // Clear cart and form
     setCart([]);
     setQuantities((prev) =>
       Object.fromEntries(Object.entries(prev).map(([k]) => [k, 0]))
     );
     setUserInfo({ name: "", address: "", phone: "" });
-
-    // Auto-dismiss popup after 5 seconds
-    setTimeout(() => setOrderPopup(null), 5000);
   };
 
   return (
@@ -178,7 +175,7 @@ const BuyScrap = () => {
                   padding: "5px",
                   marginTop: "10px",
                   backgroundColor: inCart ? "#d9534f" : "#27A844",
-                  color: inCart? "#FFF3F3": "#F0FFF0",
+                  color: inCart ? "#FFF3F3" : "#F0FFF0",
                   cursor: "pointer",
                   borderRadius: "5px",
                   border: "none",
@@ -257,7 +254,12 @@ const BuyScrap = () => {
           <p><strong>Estimated Delivery:</strong> {orderPopup.deliveryDate}</p>
           <p style={{ marginTop: "10px", color: "gray" }}>Thank you for recycling with us!</p>
           <button
-            onClick={() => setOrderPopup(null)}
+            onClick={() => {
+              setOrderPopup(null);
+              setTimeout(() => {
+                window.location.href = "/";
+              }, 1000); // redirect after 3s
+            }}
             style={{
               marginTop: "20px",
               backgroundColor: "#d9534f",
