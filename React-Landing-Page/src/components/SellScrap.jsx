@@ -1,24 +1,32 @@
 import React, { useState } from "react";
+import { useHistory } from "react-router-dom";
 import "./SellScrap.css";
 
-const SellScrap = () => {
+const SellScrapForm = () => {
+  const history = useHistory();
+  const [formData, setFormData] = useState({
+    name: "",
+    address: "",
+    phone: "",
+    scrapType: "",
+    weight: "",
+    price: "",
+  });
+
   const [submitted, setSubmitted] = useState(false);
+
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const formData = new FormData(e.target);
-    const data = Object.fromEntries(formData.entries());
+    setSubmitted(true);
 
-    fetch("http://localhost:5000/sell-scrap", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify(data)
-    })
-    .then(res => res.json())
-    .then(() => setSubmitted(true))
-    .catch(err => console.error("Error:", err));
+    // Auto redirect to home after 3 seconds
+    setTimeout(() => {
+      history.push("/");
+    }, 3000);
   };
 
   return (
@@ -26,21 +34,62 @@ const SellScrap = () => {
       {!submitted ? (
         <form className="sell-form" onSubmit={handleSubmit}>
           <h2>Sell Your Scrap</h2>
-          <input type="text" name="name" placeholder="Your Name" required />
-          <input type="text" name="address" placeholder="Your Address" required />
-          <input type="text" name="scrapType" placeholder="Type of Scrap" required />
-          <input type="number" name="price" placeholder="Price (in ₹)" required />
+          <input
+            type="text"
+            name="name"
+            placeholder="Your Name"
+            onChange={handleChange}
+            required
+          />
+          <input
+            type="text"
+            name="address"
+            placeholder="Your Address"
+            onChange={handleChange}
+            required
+          />
+          <input
+            type="tel"
+            name="phone"
+            placeholder="Phone Number"
+            onChange={handleChange}
+            required
+          />
+          <input
+            type="text"
+            name="scrapType"
+            placeholder="Type of Scrap"
+            onChange={handleChange}
+            required
+          />
+          <input
+            type="number"
+            name="weight"
+            placeholder="Weight (kg)"
+            onChange={handleChange}
+            required
+          />
+          <input
+            type="number"
+            name="price"
+            placeholder="Price you expect (₹/kg)"
+            onChange={handleChange}
+            required
+          />
           <button type="submit">Submit</button>
         </form>
       ) : (
         <div className="thank-you">
-          <h2>Your sell request has been placed!</h2>
-          <p>Our driver will reach your location to collect the scrap.</p>
-          <p>🌍 Thank you for saving Earth! 🌿</p>
+          <h2>✅ Order Placed Successfully!</h2>
+          <p>
+            Our delivery partner will collect the scrap from your location.
+            <br />
+            Redirecting to homepage...
+          </p>
         </div>
       )}
     </div>
   );
 };
 
-export default SellScrap;
+export default SellScrapForm;

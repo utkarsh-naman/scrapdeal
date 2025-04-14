@@ -1,4 +1,4 @@
-.options-container {
+.scrap-options-container {
   text-align: center;
   padding: 60px 20px;
   font-family: 'Segoe UI', sans-serif;
@@ -6,21 +6,27 @@
   min-height: 100vh;
 }
 
-.options-container h1 {
+.scrap-options-container h1 {
   font-size: 36px;
   color: #2e7d32;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   font-weight: bold;
 }
 
-.button-group {
+.scrap-options-container p {
+  font-size: 20px;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.buttons {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 30px;
 }
 
-.button-group button {
+.buttons button {
   padding: 18px 36px;
   font-size: 20px;
   border-radius: 16px;
@@ -32,7 +38,12 @@
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
 }
 
-.button-group button:hover {
+.buttons button:hover {
   transform: scale(1.05);
   background-color: #2e7d32;
+}
+
+.buttons button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
 }
