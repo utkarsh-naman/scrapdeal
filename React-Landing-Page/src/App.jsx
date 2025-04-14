@@ -18,7 +18,7 @@ import { Team } from "./components/Team";
 import Login from "./components/login";
 import ScrapOptions from "./components/ScrapOptions";
 import SellScrap from "./components/SellScrap";
-
+import BuyScrap from "./components/BuyScrap";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
@@ -57,7 +57,8 @@ const App = () => {
         <Route path="/options" component={ScrapOptions} />
         <Route path="/sell-scrap" component={SellScrap} />
         <Route path="/options" component={ScrapOptions} />
-<Route path="/sell-scrap" component={SellScrapForm} />
+        <Route path="/sell-scrap" component={SellScrapForm} />
+        <Route path="/buy-scrap" component={BuyScrap} />
       </Switch>
     </Router>
   );

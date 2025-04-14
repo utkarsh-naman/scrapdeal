@@ -1,3 +1,7 @@
+body {
+  padding-top: 80px; /* Adjust based on actual navbar height */
+}
+
 .scrap-options-container {
   text-align: center;
   padding: 60px 20px;

@@ -80,7 +80,7 @@ const SellScrapForm = () => {
         </form>
       ) : (
         <div className="thank-you">
-          <h2>✅ Order Placed Successfully!</h2>
+          <h2>✅ Sale Placed Successfully!</h2>
           <p>
             Our delivery partner will collect the scrap from your location.
             <br />

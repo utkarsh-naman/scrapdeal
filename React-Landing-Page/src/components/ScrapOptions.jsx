@@ -9,6 +9,11 @@ const ScrapOptions = () => {
     history.push("/sell-scrap");
   };
 
+  const handleBuyScrap = () => {
+    history.push("/buy-scrap");
+  };
+
+
   return (
     <div className="scrap-options-container">
       <h1>Welcome to ScrapCycle 🌍</h1>
@@ -17,7 +22,7 @@ const ScrapOptions = () => {
         <button className="sell-btn" onClick={handleSellScrap}>
           Sell Scrap
         </button>
-        <button className="buy-btn" disabled>
+        <button className="buy-btn" onClick={handleBuyScrap}>
           Buy Scrap
         </button>
       </div>
